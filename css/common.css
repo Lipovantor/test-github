@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  font-family: "OpenSans";
+  font-size: 32px;
+  font-weight: 400;
+}
+
+main,
+section {
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.button {
+  padding: 11px 13px;
+  border-radius: 32px;
+}
+.button_dark {
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 16px;
+  color: #fff;
+  background-color: #21264F;
+  border: 1px solid #21264F;
+}
+.button_dark:hover {
+  transition: all 0.4s;
+  color: #21264F;
+  background-color: #fff;
+}
+
+/*# sourceMappingURL=common.css.map */

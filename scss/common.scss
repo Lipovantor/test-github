@@ -1,0 +1,47 @@
+@import "variables";
+
+body {
+  margin: 0;
+  font-family: 'OpenSans';
+  font-size: 32px;
+  font-weight: 400;
+}
+
+main,
+section {
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.button {
+  padding: 11px 13px;
+  border-radius: 32px;
+
+  &_dark {
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 16px;
+    color: $light-color;
+    background-color: $main-color;
+    border: 1px solid $main-color;
+
+    &:hover {
+      transition: all .4s;
+      color: $main-color;
+      background-color: $light-color;
+    }
+  }
+}
